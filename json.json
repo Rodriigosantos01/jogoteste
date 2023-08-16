@@ -1,0 +1,767 @@
+[
+    {
+        "pergunta": "Você está explorando uma densa selva na Bolívia. De repente, você encontra uma bifurcação no caminho. Qual direção você escolhe?",
+        "opcoes": [
+            {
+                "texto": "Decide seguir o caminho à esquerda, que parece menos trilhado.",
+                "efeitoPositivo": "Encontra uma cachoeira escondida e ganha um aumento temporário em sua energia.",
+                "efeitoNegativo": "Se perde na selva por algumas horas, ficando cansado e perdendo tempo.",
+                "proximaPergunta": 2
+            },
+            {
+                "texto": "Opta por continuar pelo caminho à direita, que parece mais seguro.",
+                "efeitoPositivo": "Segue em frente, evitando riscos, mas também perdendo a oportunidade de explorar a cachoeira.",
+                "efeitoNegativo": "Entra em uma área de mosquitos e sofre várias picadas, ficando desconfortável.",
+                "proximaPergunta": 3
+            }
+        ]
+    },
+    {
+        "pergunta": "Ao seguir o caminho à esquerda, você encontra uma ponte instável sobre um rio caudaloso. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide arriscar e atravessar a ponte para o outro lado.",
+                "efeitoPositivo": "Consegue atravessar com sucesso, ganhando confiança em suas habilidades.",
+                "efeitoNegativo": "A ponte balança perigosamente, e você escorrega, caindo na água gelada.",
+                "proximaPergunta": 4
+            },
+            {
+                "texto": "Opta por não arriscar e procura um local alternativo para atravessar o rio.",
+                "efeitoPositivo": "Encontra um desvio seguro, mas perde a oportunidade de enfrentar um desafio.",
+                "efeitoNegativo": "Perde tempo procurando um desvio e acaba se afastando do seu objetivo.",
+                "proximaPergunta": 5
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra uma tribo indígena na floresta. Eles oferecem compartilhar seu conhecimento sobre plantas medicinais. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita a oferta e aprende sobre as plantas medicinais com a tribo.",
+                "efeitoPositivo": "Adquire conhecimentos valiosos sobre cura e ganha um aumento temporário em sua saúde.",
+                "efeitoNegativo": "Recebe uma erva errada e acaba se sentindo mal por algumas horas.",
+                "proximaPergunta": 6
+            },
+            {
+                "texto": "Prefere não se envolver, preocupado com possíveis efeitos colaterais.",
+                "efeitoPositivo": "Continua sua jornada, sem aprender sobre as plantas medicinais.",
+                "efeitoNegativo": "Perde a oportunidade de aprender sobre as plantas e suas propriedades benéficas.",
+                "proximaPergunta": 7
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um antigo templo inca escondido nas montanhas da Bolívia. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide entrar no templo para explorar suas câmaras secretas.",
+                "efeitoPositivo": "Descobre um artefato mágico e ganha um aumento temporário em sua habilidade mágica.",
+                "efeitoNegativo": "Ativa uma armadilha ao entrar e é ferido, perdendo energia.",
+                "proximaPergunta": 8
+            },
+            {
+                "texto": "Opta por não entrar no templo, preocupado com possíveis armadilhas.",
+                "efeitoPositivo": "Evita riscos, mas também perde a chance de explorar o templo.",
+                "efeitoNegativo": "Perde uma oportunidade de encontrar um tesouro, mas evita possíveis perigos.",
+                "proximaPergunta": 9
+            }
+        ]
+    },
+    {
+        "pergunta": "Você é convidado a participar de uma celebração tradicional de dança na cidade de La Paz. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita o convite e participa da celebração, aprendendo os passos de dança locais.",
+                "efeitoPositivo": "Diverte-se na celebração e ganha um aumento temporário em sua energia.",
+                "efeitoNegativo": "Acaba pisando no pé de alguém durante a dança, criando um momento embaraçoso.",
+                "proximaPergunta": 10
+            },
+            {
+                "texto": "Prefere não participar da celebração, preocupado com o desconhecido.",
+                "efeitoPositivo": "Continua sua jornada, sem experimentar a dança tradicional.",
+                "efeitoNegativo": "Perde uma oportunidade de se socializar, mas mantém o foco em sua jornada.",
+                "proximaPergunta": 11
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora as montanhas da Bolívia, você encontra um caminho íngreme que leva ao topo de uma colina. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide subir a colina para ter uma visão panorâmica da paisagem.",
+                "efeitoPositivo": "Chega ao topo e aprecia a vista deslumbrante, ganhando um aumento temporário em seu ânimo.",
+                "efeitoNegativo": "Enfrenta dificuldades durante a subida, ficando exausto quando finalmente alcança o topo.",
+                "proximaPergunta": 21
+            },
+            {
+                "texto": "Opta por não subir, preocupado com o esforço necessário.",
+                "efeitoPositivo": "Continua sua jornada sem gastar energia extra, mas perde a chance de apreciar a vista.",
+                "efeitoNegativo": "Fica curioso sobre a vista que poderia ter tido e se sente um pouco arrependido.",
+                "proximaPergunta": 22
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante sua jornada, você encontra uma velha cabana nas montanhas. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide entrar na cabana para explorar seu interior.",
+                "efeitoPositivo": "Encontra suprimentos úteis e descansa um pouco, recuperando sua energia.",
+                "efeitoNegativo": "Ao entrar, um teto instável desaba parcialmente, causando pequenos ferimentos.",
+                "proximaPergunta": 23
+            },
+            {
+                "texto": "Opta por evitar a cabana, preocupado com sua condição.",
+                "efeitoPositivo": "Continua sua jornada sem enfrentar riscos, mas também perde a oportunidade de encontrar suprimentos.",
+                "efeitoNegativo": "Fica cansado e sem um local para descansar, diminuindo sua energia.",
+                "proximaPergunta": 24
+            }
+        ]
+    },
+    {
+        "pergunta": "Você descobre uma misteriosa caverna subterrânea na Bolívia. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide explorar a caverna em busca de tesouros escondidos.",
+                "efeitoPositivo": "Encontra gemas preciosas e relíquias antigas, ganhando um aumento temporário em sua riqueza.",
+                "efeitoNegativo": "Ativa uma armadilha ao entrar na caverna e é forçado a sair com pressa, ferindo-se levemente.",
+                "proximaPergunta": 25
+            },
+            {
+                "texto": "Opta por não entrar na caverna, preocupado com possíveis perigos.",
+                "efeitoPositivo": "Evita possíveis riscos, mas também perde a oportunidade de encontrar tesouros.",
+                "efeitoNegativo": "Fica curioso sobre o que poderia ter encontrado na caverna e lamenta não ter explorado.",
+                "proximaPergunta": 26
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto caminha pela cidade de Sucre, você é desafiado para um jogo de futebol por um grupo de jovens locais. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Aceita o desafio e participa do jogo de futebol.",
+                "efeitoPositivo": "Diverte-se jogando com os jovens, ganhando um aumento temporário em sua habilidade atlética.",
+                "efeitoNegativo": "Acaba torcendo o tornozelo durante o jogo e precisa descansar por um tempo.",
+                "proximaPergunta": 27
+            },
+            {
+                "texto": "Prefere não participar, preocupado com possíveis lesões.",
+                "efeitoPositivo": "Continua sua jornada sem se machucar, mas também perde a chance de interagir com os locais.",
+                "efeitoNegativo": "Sente-se um pouco excluído ao ver a diversão dos jovens e se arrepende de não ter jogado.",
+                "proximaPergunta": 28
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um velho homem sábio em uma vila remota. Ele oferece compartilhar seu conhecimento sobre ervas medicinais raras. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita a oferta e aprende com o homem sábio sobre as ervas medicinais.",
+                "efeitoPositivo": "Adquire conhecimentos valiosos sobre cura e ganha um aumento temporário em sua saúde.",
+                "efeitoNegativo": "Recebe informações erradas sobre uma erva e acaba se sentindo pior.",
+                "proximaPergunta": 29
+            },
+            {
+                "texto": "Prefere não se envolver, preocupado com possíveis riscos.",
+                "efeitoPositivo": "Continua sua jornada sem correr riscos, mas perde a oportunidade de aprender sobre as ervas.",
+                "efeitoNegativo": "Sente-se curioso sobre o que poderia ter aprendido e lamenta não ter aceitado a oferta.",
+                "proximaPergunta": 30
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante sua aventura, você encontra um vendedor ambulante oferecendo amuletos de proteção. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide comprar um amuleto de proteção para si mesmo.",
+                "efeitoPositivo": "Adquire um amuleto que traz boa sorte e proteção, ganhando um aumento temporário em sua sorte.",
+                "efeitoNegativo": "O amuleto se quebra logo após a compra, deixando você se sentindo enganado.",
+                "proximaPergunta": 31
+            },
+            {
+                "texto": "Opta por não comprar o amuleto, preocupado com sua eficácia.",
+                "efeitoPositivo": "Continua sua jornada sem gastar dinheiro, mas também perde a chance de ter proteção adicional.",
+                "efeitoNegativo": "Sente-se um pouco inseguro sobre sua decisão ao ver outras pessoas usando os amuletos.",
+                "proximaPergunta": 32
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora as planícies da Bolívia, você encontra um riacho cristalino. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide beber a água do riacho sem hesitar.",
+                "efeitoPositivo": "A água é fresca e revitalizante, recuperando sua energia e saúde.",
+                "efeitoNegativo": "A água estava contaminada, fazendo você se sentir doente por algumas horas.",
+                "proximaPergunta": 33
+            },
+            {
+                "texto": "Opta por não beber a água, preocupado com possíveis riscos.",
+                "efeitoPositivo": "Continua sua jornada sem sofrer efeitos colaterais, mas também fica com sede.",
+                "efeitoNegativo": "Sente-se tentado a beber a água ao ver outros exploradores se refrescando no riacho.",
+                "proximaPergunta": 34
+            }
+        ]
+    },
+    {
+        "pergunta": "Você é convidado a participar de um ritual tradicional em uma aldeia andina. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita o convite e participa do ritual, respeitando as tradições locais.",
+                "efeitoPositivo": "Envolve-se na cultura local e ganha um aumento temporário em sua conexão com a comunidade.",
+                "efeitoNegativo": "Comete um erro durante o ritual, ofendendo os locais e criando um momento embaraçoso.",
+                "proximaPergunta": 35
+            },
+            {
+                "texto": "Prefere não participar do ritual, preocupado com possíveis conflitos culturais.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em situações desconhecidas, mas também perde a chance de interagir com os moradores.",
+                "efeitoNegativo": "Sente-se um pouco isolado ao ver a alegria dos participantes do ritual.",
+                "proximaPergunta": 36
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um guia local que oferece levá-lo para uma trilha nas montanhas. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide contratar o guia e explorar a trilha com sua ajuda.",
+                "efeitoPositivo": "O guia leva você a lugares incríveis e compartilha conhecimentos sobre a região, enriquecendo sua experiência.",
+                "efeitoNegativo": "O guia se perde na trilha e vocês acabam voltando mais tarde do que o planejado, perdendo tempo.",
+                "proximaPergunta": 37
+            },
+            {
+                "texto": "Opta por explorar a trilha por conta própria, confiante em suas habilidades.",
+                "efeitoPositivo": "Explora a trilha de forma independente, ganhando um aumento temporário em sua confiança.",
+                "efeitoNegativo": "Fica um pouco desorientado durante a trilha e demora mais para chegar ao destino.",
+                "proximaPergunta": 38
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um estranho artefato mágico em um mercado de rua em Cochabamba. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide comprar o artefato para desvendar seus segredos.",
+                "efeitoPositivo": "O artefato revela ser uma ferramenta mágica útil, concedendo um aumento temporário em sua habilidade mágica.",
+                "efeitoNegativo": "O artefato é uma farsa e você perde dinheiro, se sentindo enganado.",
+                "proximaPergunta": 39
+            },
+            {
+                "texto": "Opta por não adquirir o artefato, preocupado com possíveis efeitos negativos.",
+                "efeitoPositivo": "Evita gastar dinheiro em algo incerto, mas também perde a oportunidade de adquirir um item mágico.",
+                "efeitoNegativo": "Fica curioso sobre o que o artefato poderia ter feito e se pergunta se foi uma oportunidade perdida.",
+                "proximaPergunta": 40
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto caminha pelo deserto da Bolívia, você encontra um cacto de aparência incomum. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide colher um pedaço do cacto para investigar mais de perto.",
+                "efeitoPositivo": "Descobre que o cacto possui propriedades curativas, ganhando um aumento temporário em sua saúde.",
+                "efeitoNegativo": "Ao colher o cacto, você é espetado por espinhos afiados, ficando levemente ferido.",
+                "proximaPergunta": 41
+            },
+            {
+                "texto": "Opta por não mexer no cacto, preocupado com possíveis riscos.",
+                "efeitoPositivo": "Continua sua jornada sem sofrer ferimentos, mas também perde a chance de descobrir as propriedades do cacto.",
+                "efeitoNegativo": "Sente-se um pouco intrigado sobre o que o cacto poderia ter revelado.",
+                "proximaPergunta": 42
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um antigo mapa que aponta para um tesouro escondido nas montanhas da Bolívia. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide seguir o mapa e buscar o tesouro escondido.",
+                "efeitoPositivo": "Encontra o tesouro, que inclui joias e moedas antigas, ganhando um aumento temporário em sua riqueza.",
+                "efeitoNegativo": "O mapa estava impreciso, e você passa horas procurando em vão pelo tesouro.",
+                "proximaPergunta": 43
+            },
+            {
+                "texto": "Opta por não dar atenção ao mapa, preocupado com possíveis enganos.",
+                "efeitoPositivo": "Continua sua jornada sem perder tempo na busca de um tesouro incerto.",
+                "efeitoNegativo": "Fica curioso sobre o que poderia ter encontrado e lamenta não ter tentado seguir o mapa.",
+                "proximaPergunta": 44
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante sua aventura, você se depara com uma estátua antiga de um deus desconhecido. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide tocar na estátua para invocar a bênção do deus.",
+                "efeitoPositivo": "Recebe uma bênção mágica temporária, que melhora suas habilidades durante um curto período.",
+                "efeitoNegativo": "Ao tocar na estátua, você é atingido por uma energia desestabilizadora, causando um desconforto temporário.",
+                "proximaPergunta": 45
+            },
+            {
+                "texto": "Opta por evitar a estátua, preocupado com possíveis consequências.",
+                "efeitoPositivo": "Continua sua jornada sem sofrer efeitos desconhecidos, mas também perde a chance de obter uma bênção.",
+                "efeitoNegativo": "Sente-se intrigado sobre o que a bênção poderia ter proporcionado e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 46
+            }
+        ]
+    },
+    {
+        "pergunta": "Você é convidado a participar de uma cerimônia de chá tradicional em uma vila andina. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita o convite e participa da cerimônia de chá.",
+                "efeitoPositivo": "Desfruta de um momento relaxante e ganha um aumento temporário em sua paz interior.",
+                "efeitoNegativo": "Bebe o chá errado e se sente enjoado, passando um tempo desconfortável.",
+                "proximaPergunta": 47
+            },
+            {
+                "texto": "Prefere não participar da cerimônia, preocupado com possíveis reações alérgicas.",
+                "efeitoPositivo": "Continua sua jornada sem se preocupar com efeitos colaterais, mas também perde a chance de experimentar a cerimônia.",
+                "efeitoNegativo": "Sente-se curioso sobre o que teria acontecido na cerimônia e lamenta não ter participado.",
+                "proximaPergunta": 48
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora uma caverna subterrânea, você encontra uma bifurcação com dois caminhos diferentes. Qual é a sua decisão?",
+        "opcoes": [
+            {
+                "texto": "Decide seguir o caminho à esquerda, que parece mais escuro e misterioso.",
+                "efeitoPositivo": "Descobre um tesouro escondido no final do caminho, ganhando um aumento temporário em sua riqueza.",
+                "efeitoNegativo": "Entra em uma área perigosa com rochas instáveis, ficando ferido no processo.",
+                "proximaPergunta": 49
+            },
+            {
+                "texto": "Opta por continuar pelo caminho à direita, que parece mais seguro.",
+                "efeitoPositivo": "Segue um caminho seguro, evitando riscos desnecessários.",
+                "efeitoNegativo": "O caminho leva a um beco sem saída, fazendo você perder algum tempo.",
+                "proximaPergunta": 50
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora uma floresta na Bolívia, você se depara com uma cachoeira majestosa. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide nadar na piscina natural abaixo da cachoeira.",
+                "efeitoPositivo": "Desfruta de um refrescante mergulho e ganha um aumento temporário em sua vitalidade.",
+                "efeitoNegativo": "A correnteza é mais forte do que você esperava, e você tem dificuldade em nadar.",
+                "proximaPergunta": 51
+            },
+            {
+                "texto": "Opta por não nadar, preocupado com as condições da água.",
+                "efeitoPositivo": "Continua sua jornada sem se molhar, evitando possíveis contratempos.",
+                "efeitoNegativo": "Sente-se tentado a entrar na água ao ver outras pessoas se divertindo na cachoeira.",
+                "proximaPergunta": 52
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um pergaminho antigo em uma biblioteca abandonada na Bolívia. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide estudar o pergaminho em busca de conhecimentos esquecidos.",
+                "efeitoPositivo": "Descobre informações valiosas sobre magia ancestral, ganhando um aumento temporário em sua habilidade mágica.",
+                "efeitoNegativo": "Acaba interpretando erroneamente um feitiço e sofre um efeito adverso temporário.",
+                "proximaPergunta": 53
+            },
+            {
+                "texto": "Opta por não se envolver com o pergaminho, preocupado com possíveis consequências.",
+                "efeitoPositivo": "Continua sua jornada sem se expor a riscos mágicos, mas perde a oportunidade de aprender.",
+                "efeitoNegativo": "Fica curioso sobre o que o pergaminho poderia ter revelado e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 54
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante sua aventura, você é convidado a participar de um ritual de dança tradicional em uma aldeia andina. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita o convite e participa do ritual de dança.",
+                "efeitoPositivo": "Diverte-se dançando e ganha um aumento temporário em sua agilidade.",
+                "efeitoNegativo": "Tropeça durante a dança e cai no chão, sentindo-se um pouco envergonhado.",
+                "proximaPergunta": 55
+            },
+            {
+                "texto": "Prefere não participar, preocupado com a falta de habilidade.",
+                "efeitoPositivo": "Continua sua jornada sem se sentir embaraçado, mas também perde a oportunidade de se envolver com os moradores.",
+                "efeitoNegativo": "Sente-se um pouco excluído ao ver a alegria dos participantes do ritual.",
+                "proximaPergunta": 56
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um vendedor local oferecendo amuletos de sorte na rua em La Paz. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide comprar um amuleto de sorte para si mesmo.",
+                "efeitoPositivo": "Adquire um amuleto que traz boa sorte, ganhando um aumento temporário em sua sorte.",
+                "efeitoNegativo": "O amuleto não produz efeito, e você se sente um pouco enganado.",
+                "proximaPergunta": 57
+            },
+            {
+                "texto": "Opta por não comprar o amuleto, preocupado com sua eficácia.",
+                "efeitoPositivo": "Continua sua jornada sem gastar dinheiro, mas também perde a oportunidade de ter proteção adicional.",
+                "efeitoNegativo": "Sente-se tentado a ter um amuleto de sorte ao ver outras pessoas usando-os.",
+                "proximaPergunta": 58
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora as ruínas de Tiwanaku, você encontra uma porta antiga selada. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide tentar abrir a porta para descobrir o que está escondido.",
+                "efeitoPositivo": "Consegue abrir a porta e encontra artefatos antigos, ganhando um aumento temporário em sua riqueza.",
+                "efeitoNegativo": "A porta está presa e você acaba machucando a mão ao tentar forçá-la.",
+                "proximaPergunta": 59
+            },
+            {
+                "texto": "Opta por não mexer na porta, preocupado com possíveis armadilhas.",
+                "efeitoPositivo": "Continua sua jornada sem enfrentar riscos, mas também perde a oportunidade de descobrir os segredos da porta.",
+                "efeitoNegativo": "Sente-se curioso sobre o que poderia estar por trás da porta selada e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 60
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um acampamento de pesquisa científica nas montanhas da Bolívia. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide se juntar aos pesquisadores e colaborar em seus estudos.",
+                "efeitoPositivo": "Contribui para a pesquisa e ganha um aumento temporário em sua inteligência.",
+                "efeitoNegativo": "Ao tentar ajudar, acidentalmente quebra um equipamento valioso dos pesquisadores.",
+                "proximaPergunta": 61
+            },
+            {
+                "texto": "Opta por não interferir na pesquisa, preocupado com possíveis problemas.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em questões científicas, mas também perde a chance de aprender algo novo.",
+                "efeitoNegativo": "Sente-se curioso sobre o que os pesquisadores estavam estudando e lamenta não ter participado.",
+                "proximaPergunta": 62
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra uma antiga estátua de um deus da chuva em uma caverna escondida. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide tocar na estátua na esperança de trazer chuva.",
+                "efeitoPositivo": "A chuva começa a cair, refrescando a área e aumentando suas reservas de água.",
+                "efeitoNegativo": "Nada acontece quando você toca na estátua, e você se sente um pouco tolo.",
+                "proximaPergunta": 63
+            },
+            {
+                "texto": "Opta por não interferir com a estátua, preocupado com possíveis consequências.",
+                "efeitoPositivo": "Continua sua jornada sem causar mudanças climáticas, mas também perde a oportunidade de trazer chuva para a região.",
+                "efeitoNegativo": "Sente-se um pouco intrigado sobre o que teria acontecido se você tivesse tocado na estátua.",
+                "proximaPergunta": 64
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora as margens do Lago Titicaca, você encontra um pescador local. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide se juntar ao pescador em sua jornada de pesca.",
+                "efeitoPositivo": "Aprende técnicas de pesca tradicionais e ganha um aumento temporário em sua habilidade de sobrevivência.",
+                "efeitoNegativo": "Acaba atrapalhando o pescador e assustando os peixes, dificultando a pescaria.",
+                "proximaPergunta": 65
+            },
+            {
+                "texto": "Opta por não participar da pescaria, preocupado com possíveis conflitos.",
+                "efeitoPositivo": "Continua sua jornada sem afetar a pescaria, mas também perde a oportunidade de aprender com o pescador.",
+                "efeitoNegativo": "Sente-se curioso sobre as técnicas de pesca e lamenta não ter se envolvido.",
+                "proximaPergunta": 66
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um grupo de músicos locais tocando música tradicional em uma praça em Sucre. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide se juntar aos músicos e mostrar suas habilidades musicais.",
+                "efeitoPositivo": "Contribui para a música e ganha um aumento temporário em sua criatividade.",
+                "efeitoNegativo": "Acaba desafinando e atrapalhando a apresentação dos músicos, causando constrangimento.",
+                "proximaPergunta": 67
+            },
+            {
+                "texto": "Opta por não se envolver com os músicos, preocupado com possíveis falhas.",
+                "efeitoPositivo": "Continua sua jornada sem causar constrangimentos, mas também perde a oportunidade de tocar música com os locais.",
+                "efeitoNegativo": "Sente-se um pouco excluído ao ver a alegria dos músicos e do público.",
+                "proximaPergunta": 68
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante uma tempestade repentina, você encontra abrigo em uma cabana isolada nas montanhas. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide entrar na cabana e esperar a tempestade passar.",
+                "efeitoPositivo": "Fica protegido da tempestade e ganha um aumento temporário em sua resistência.",
+                "efeitoNegativo": "A cabana está abandonada e em mau estado, e você se sente desconfortável durante a espera.",
+                "proximaPergunta": 69
+            },
+            {
+                "texto": "Opta por continuar a jornada, buscando abrigo em outro lugar.",
+                "efeitoPositivo": "Encontra um abrigo mais seguro e continua sua jornada sem se preocupar com a cabana.",
+                "efeitoNegativo": "Enquanto segue em frente, você é atingido por um raio próximo e fica assustado.",
+                "proximaPergunta": 70
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora um mercado local em Cochabamba, você encontra um vendedor que oferece ervas medicinais. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide comprar algumas ervas medicinais para uso futuro.",
+                "efeitoPositivo": "Adquire ervas que podem ser usadas para criar poções de cura, ganhando um aumento temporário em sua saúde.",
+                "efeitoNegativo": "As ervas não têm o efeito esperado e você se sente um pouco enganado.",
+                "proximaPergunta": 71
+            },
+            {
+                "texto": "Opta por não comprar as ervas, preocupado com possíveis efeitos colaterais.",
+                "efeitoPositivo": "Continua sua jornada sem gastar dinheiro em ervas duvidosas, mas também perde a chance de obter recursos úteis.",
+                "efeitoNegativo": "Fica curioso sobre o que as ervas poderiam ter feito e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 72
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um grupo de crianças brincando com pipas em um campo aberto em Oruro. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide se juntar às crianças e participar da brincadeira com pipas.",
+                "efeitoPositivo": "Diverte-se brincando e ganha um aumento temporário em sua alegria.",
+                "efeitoNegativo": "Tenta controlar uma pipa e acaba se enrolando nas linhas, causando um pequeno embaraço.",
+                "proximaPergunta": 73
+            },
+            {
+                "texto": "Opta por não participar, preocupado com possíveis acidentes.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em brincadeiras infantis, mas também perde a oportunidade de se divertir.",
+                "efeitoNegativo": "Sente-se um pouco excluído ao ver as crianças se divertindo e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 74
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante uma visita a Potosí, você é convidado a explorar uma mina de prata desativada. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Decide entrar na mina e explorar os túneis abandonados.",
+                "efeitoPositivo": "Descobre algumas pepitas de prata esquecidas, ganhando um aumento temporário em sua riqueza.",
+                "efeitoNegativo": "Entra em uma área perigosa e escorrega, machucando-se levemente.",
+                "proximaPergunta": 75
+            },
+            {
+                "texto": "Opta por não entrar na mina, preocupado com possíveis perigos.",
+                "efeitoPositivo": "Continua sua jornada sem se expor a riscos subterrâneos, mas também perde a chance de encontrar tesouros escondidos.",
+                "efeitoNegativo": "Fica curioso sobre o que poderia ter encontrado e lamenta não ter se aventurado na mina.",
+                "proximaPergunta": 76
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um velho xamã em uma aldeia remota no altiplano boliviano. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide conversar com o xamã e aprender sobre suas práticas espirituais.",
+                "efeitoPositivo": "Aprende técnicas de meditação e ganha um aumento temporário em sua espiritualidade.",
+                "efeitoNegativo": "O xamã lhe dá conselhos enigmáticos que são difíceis de entender.",
+                "proximaPergunta": 77
+            },
+            {
+                "texto": "Opta por não se envolver com o xamã, preocupado com suas intenções.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em questões espirituais, mas também perde a oportunidade de aprender com o xamã.",
+                "efeitoNegativo": "Sente-se um pouco intrigado sobre o que o xamã poderia ter compartilhado e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 78
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora as ruínas de Samaipata, você encontra uma escultura misteriosa. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide tocar na escultura para desvendar seu significado.",
+                "efeitoPositivo": "Recebe uma visão enigmática do passado e ganha um aumento temporário em sua sabedoria.",
+                "efeitoNegativo": "Ao tocar na escultura, você sente um arrepio desconfortável percorrendo sua espinha.",
+                "proximaPergunta": 79
+            },
+            {
+                "texto": "Opta por não mexer na escultura, preocupado com possíveis consequências.",
+                "efeitoPositivo": "Continua sua jornada sem perturbar artefatos antigos, mas também perde a oportunidade de obter insights do passado.",
+                "efeitoNegativo": "Fica curioso sobre o que a escultura poderia ter revelado e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 80
+            }
+        ]
+    },
+    {
+        "pergunta": "Você é convidado a participar de uma cerimônia tradicional de fogo em uma vila na Cordilheira dos Andes. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita o convite e se junta à cerimônia de fogo.",
+                "efeitoPositivo": "Participa de uma cerimônia espiritual e ganha um aumento temporário em sua conexão com a natureza.",
+                "efeitoNegativo": "Sem querer, pisa em uma brasa quente e queima o pé.",
+                "proximaPergunta": 81
+            },
+            {
+                "texto": "Prefere não participar da cerimônia, preocupado com possíveis acidentes.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em rituais desconhecidos, mas também perde a oportunidade de experimentar a cultura local.",
+                "efeitoNegativo": "Sente-se um pouco excluído ao ver a alegria dos participantes da cerimônia.",
+                "proximaPergunta": 82
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra uma águia ferida na floresta e decide ajudá-la. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Tenta cuidar da águia e curar suas feridas.",
+                "efeitoPositivo": "Com sucesso, cuida da águia e ganha sua gratidão, ganhando um aumento temporário em sua conexão com os animais.",
+                "efeitoNegativo": "Apesar de seus esforços, a águia não responde bem ao tratamento e piora.",
+                "proximaPergunta": 83
+            },
+            {
+                "texto": "Opta por não interferir, preocupado com a saúde da águia.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em cuidados com animais, mas também perde a oportunidade de criar um vínculo com a águia.",
+                "efeitoNegativo": "Sente-se um pouco culpado por não ter ajudado a águia ferida.",
+                "proximaPergunta": 84
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante uma viagem de barco no Lago Titicaca, você encontra uma ilha flutuante feita de junco. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide explorar a ilha flutuante e conhecer seus habitantes.",
+                "efeitoPositivo": "Aprende sobre a cultura única dos habitantes da ilha e ganha um aumento temporário em sua empatia.",
+                "efeitoNegativo": "Ao caminhar na ilha, você perde o equilíbrio e cai na água fria do lago.",
+                "proximaPergunta": 85
+            },
+            {
+                "texto": "Opta por não se aproximar da ilha, preocupado com possíveis armadilhas.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em encontros desconhecidos, mas também perde a oportunidade de aprender sobre os habitantes.",
+                "efeitoNegativo": "Sente-se curioso sobre a vida na ilha flutuante e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 86
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra um enigmático amuleto de pedra em uma caverna nas montanhas. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide pegar o amuleto e usá-lo como proteção.",
+                "efeitoPositivo": "O amuleto emite uma aura protetora e você ganha um aumento temporário em sua resistência.",
+                "efeitoNegativo": "Ao tocar no amuleto, ele se desintegra em suas mãos, deixando você desapontado.",
+                "proximaPergunta": 87
+            },
+            {
+                "texto": "Opta por não mexer no amuleto, preocupado com possíveis maldições.",
+                "efeitoPositivo": "Continua sua jornada sem se expor a possíveis riscos mágicos, mas também perde a chance de ter proteção adicional.",
+                "efeitoNegativo": "Fica curioso sobre o que o amuleto poderia ter oferecido e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 88
+            }
+        ]
+    },
+    {
+        "pergunta": "Enquanto explora as ruínas de Tiwanaku, você encontra um artefato antigo enterrado no solo. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide escavar o artefato e descobrir sua origem.",
+                "efeitoPositivo": "Desenterra um artefato valioso que pode ser vendido, ganhando um aumento temporário em sua riqueza.",
+                "efeitoNegativo": "Ao escavar, você danifica acidentalmente o artefato, perdendo parte de seu valor.",
+                "proximaPergunta": 89
+            },
+            {
+                "texto": "Opta por não mexer no artefato, preocupado em danificá-lo.",
+                "efeitoPositivo": "Continua sua jornada sem perturbar artefatos antigos, mas também perde a oportunidade de encontrar um tesouro escondido.",
+                "efeitoNegativo": "Fica curioso sobre o que o artefato poderia ter revelado e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 90
+            }
+        ]
+    },
+    {
+        "pergunta": "Você é convidado a experimentar uma refeição tradicional em uma comunidade indígena. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita o convite e se junta à refeição.",
+                "efeitoPositivo": "Desfruta de uma refeição deliciosa e ganha um aumento temporário em sua saúde.",
+                "efeitoNegativo": "Acidentalmente, come algo que não concorda com seu estômago e passa mal.",
+                "proximaPergunta": 91
+            },
+            {
+                "texto": "Prefere não participar da refeição, preocupado com possíveis reações adversas.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em refeições desconhecidas, mas também perde a oportunidade de vivenciar a culinária local.",
+                "efeitoNegativo": "Sente-se um pouco excluído ao ver o quanto os outros estão desfrutando da refeição.",
+                "proximaPergunta": 92
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante uma trilha na Floresta Amazônica boliviana, você encontra uma planta desconhecida. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide colher amostras da planta para pesquisa.",
+                "efeitoPositivo": "Coleta amostras valiosas que podem ser usadas para criar poções úteis, ganhando um aumento temporário em sua habilidade de alquimia.",
+                "efeitoNegativo": "A planta libera um pó irritante que faz com que você comece a espirrar incontrolavelmente.",
+                "proximaPergunta": 93
+            },
+            {
+                "texto": "Opta por não mexer na planta, preocupado com possíveis reações alérgicas.",
+                "efeitoPositivo": "Continua sua jornada sem coletar amostras desconhecidas, mas também perde a oportunidade de obter recursos valiosos.",
+                "efeitoNegativo": "Fica curioso sobre as propriedades da planta e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 94
+            }
+        ]
+    },
+    {
+        "pergunta": "Você é desafiado para uma partida de futebol por crianças locais em La Paz. Qual é a sua atitude?",
+        "opcoes": [
+            {
+                "texto": "Aceita o desafio e participa da partida de futebol.",
+                "efeitoPositivo": "Diverte-se jogando futebol e ganha um aumento temporário em sua agilidade.",
+                "efeitoNegativo": "Sofre uma queda enquanto joga e machuca o tornozelo.",
+                "proximaPergunta": 95
+            },
+            {
+                "texto": "Prefere não jogar futebol, preocupado com possíveis lesões.",
+                "efeitoPositivo": "Continua sua jornada sem se envolver em atividades esportivas, mas também perde a oportunidade de interagir com as crianças.",
+                "efeitoNegativo": "Sente-se um pouco excluído ao ver a diversão que está perdendo.",
+                "proximaPergunta": 96
+            }
+        ]
+    },
+    {
+        "pergunta": "Durante uma caminhada nos Andes, você encontra um cóndor majestoso voando acima. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Tenta se aproximar do cóndor para uma observação mais detalhada.",
+                "efeitoPositivo": "Observa o cóndor de perto e ganha um aumento temporário em sua observação.",
+                "efeitoNegativo": "Assusta o cóndor acidentalmente e o faz voar para longe.",
+                "proximaPergunta": 97
+            },
+            {
+                "texto": "Prefere não perturbar o cóndor, preocupado em assustá-lo.",
+                "efeitoPositivo": "Continua sua jornada sem afetar a vida selvagem, mas também perde a oportunidade de observar o cóndor de perto.",
+                "efeitoNegativo": "Fica curioso sobre a visão do cóndor e se pergunta se tomou a decisão certa.",
+                "proximaPergunta": 98
+            }
+        ]
+    },
+    {
+        "pergunta": "Você encontra uma piscina termal natural nas proximidades de Tarija. O que você faz?",
+        "opcoes": [
+            {
+                "texto": "Decide entrar na piscina termal e relaxar.",
+                "efeitoPositivo": "Desfruta de um banho relaxante e ganha um aumento temporário em sua resistência.",
+                "efeitoNegativo": "A água quente é mais intensa do que você esperava e você se sente um pouco desconfortável.",
+                "proximaPergunta": 99
+            },
+            {
+                "texto": "Opta por não entrar na piscina termal, preocupado com possíveis efeitos adversos na pele.",
+                "efeitoPositivo": "Continua sua jornada sem se expor a temperaturas extremas, mas também perde a oportunidade de relaxar nas águas termais.",
+                "efeitoNegativo": "Sente-se um pouco cansado e desejando um momento de relaxamento.",
+                "proximaPergunta": 100
+            }
+        ]
+    }
+]
